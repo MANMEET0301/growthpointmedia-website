@@ -1,0 +1,26 @@
+# robots.txt — GrowthPoint Media
+# https://www.growthpointmedia.com
+
+User-agent: *
+Allow: /
+
+# Allow all search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block access to any potential admin or private areas (placeholder)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://www.growthpointmedia.com/sitemap.xml
